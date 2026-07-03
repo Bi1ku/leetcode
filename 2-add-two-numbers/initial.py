@@ -31,6 +31,8 @@ class Solution:
 
         return head
 
+### TEST CASES
+
 arr1 = [9, 9, 9, 9, 9, 9, 9]
 l1 = ListNode()
 tmp = l1
