@@ -17,3 +17,5 @@
     and comparing with hashmap.
 - Average case: O(n)
     - Typically expect to find solution somewhere in the middle of the list while looking up in hashmap. O(n/2) => O(n).
+
+Main Concept: Hashmaps

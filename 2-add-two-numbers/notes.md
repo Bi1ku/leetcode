@@ -12,3 +12,5 @@ Optimized:
 next sum.
     - This should always happen until BOTH nodes hit a None.
     - You must always track the `carry` at the end.
+
+Main Concept: Singly Linked List & Use Cases
