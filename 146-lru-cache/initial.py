@@ -11,14 +11,17 @@ class LRUCache:
         
     def get(self, key: int) -> int:
         if key not in self.values: return -1
+
         self.operation += 1
         self.lru_tracker[key] = self.operation
+
         return self.values[key]
         
     def put(self, key: int, value: int) -> None:
         if len(self.lru_tracker) + 1 > self.capacity and key not in self.lru_tracker:
             minimum = 999
             min_key = 0
+
             for k, v in self.lru_tracker.items():
                 if minimum > v:
                     minimum = v
@@ -41,4 +44,3 @@ lRUCache.put(4, 4);
 print(lRUCache.get(1));    
 print(lRUCache.get(3));    
 print(lRUCache.get(4));    
-
