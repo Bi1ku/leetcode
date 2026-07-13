@@ -1,0 +1,5 @@
+- Initial solution was the optimal solution.
+- Convert initial lists to sets for constant lookup speeds (this prevents us from having parabolic time complexity).
+- Create output sets to automatically remove duplicate values (we want distinct).
+- Average time complexity of O(n + m)
+    - O(n) + O(m) + O(n) + O(m) + O(n) + O(m) = O(3n + 3m) = O(n + m)
