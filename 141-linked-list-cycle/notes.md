@@ -3,6 +3,7 @@ Initial Solution:
     - This runtime already optimal.
 - Average memory is O(n) because you're adding each node of the liset to a hashset.
     - We want to get our memory to O(1).
+- Use a hashset to store previously found nodes and constantly iterate through linked list. If the node is already in the hashset, you know that it is cyclical.
 
 Concepts: Floyd's Tortoise and Hare Algorithm
 
