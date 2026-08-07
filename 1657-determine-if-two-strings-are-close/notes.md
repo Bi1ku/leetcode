@@ -1,0 +1,3 @@
+- sorting is O(nlog(n)) time
+- Need strings to be same length, same characters, and same frequencies
+- Counter() helper method is to extrapolate something into hashmap to count the number of times they show up

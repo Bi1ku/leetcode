@@ -12,6 +12,3 @@ class Solution(object):
                 res += word1[i]
 
         return res
-
-
-
