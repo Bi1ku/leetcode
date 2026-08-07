@@ -1,0 +1,2 @@
+- in the for loop nums[i-k] is the left element that will be leaving
+- nums[i] is the new right element
