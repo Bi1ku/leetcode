@@ -1,0 +1,2 @@
+- No need for two pointers to track index
+- Should treat as base template for future sliding window problems
