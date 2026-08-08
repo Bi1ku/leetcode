@@ -1,0 +1,2 @@
+- don't be afraid to have if statements for edge cases (at the end and at the front)
+- don't be afraid to have a seperate variable tracking the previous node
