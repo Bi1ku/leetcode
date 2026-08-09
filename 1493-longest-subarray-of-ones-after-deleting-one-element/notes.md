@@ -1,0 +1,3 @@
+- inner while loop just means O(2n) => O(n)
+    - Doesn't retraverse the whole list which would've made is O(n^2)
+    - simply iterating the left index which has a maximum of = n
