@@ -1,0 +1,2 @@
+- len() is a constant operation
+    - Collections like str, list, tuples, dicts, etc. all have space allocated to track length
