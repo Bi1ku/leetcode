@@ -1,0 +1,3 @@
+- .pop() for arrays is an O(n) procedure (on average) because you have to shift every element to the left
+- .sort() for arrays is O(n log n) on average
+- pattern recognition
